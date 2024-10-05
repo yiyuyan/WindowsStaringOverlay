@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "wso",
+  "version": "${version}",
+  "name": "WindowsStaringOverlay",
+  "description": "",
+  "authors": [
+    "KSmc_brigade"
+  ],
+  "contact": {
+    "repo": "https://github.com/yiyuyan/WindowsStaringOverlay"
+  },
+  "license": "MIT",
+  "icon": "assets/wso/gui/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "cn.ksmcbrigade.wso.WindowsStaringOverlay"
+    ]
+  },
+  "mixins": [
+    "wso.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
